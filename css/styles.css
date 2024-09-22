@@ -5,12 +5,16 @@
 
 #testimonials {
   background: #ef8172;
+  bottom: 10%;
+  padding-bottom:3% ;
 }
 
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
+
+
 
 h1,
 h2,
@@ -38,7 +42,7 @@ p {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
-  color: black;
+  color: #fff;
   position:relative;
   left: 110%;
   bottom:10%;
@@ -76,18 +80,21 @@ p {
 .container-fluid {
   padding: 7% 15%;
 }
+.container-fluid1 {
+  padding: 7% 15%;
+}
+
 
 
 /* Sections  */
 
-.colored-section {
+/* .colored-section {
   /* background-color: #ff4c68; */
-  color: black;
-}
+  /* color: #fff; }*/
 
-/* .white-section {
+ /* .white-section {
   background-color: #fff;
-} */
+}  */
 
 .feature-box {
   padding: 7% 5% ;
@@ -96,10 +103,12 @@ p {
 .feature-title {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #fff;
+  
 }
 
 .icon {
-  /* color: #ef8172; */
+  color: #ef8172;
   margin-bottom: 1rem;
 }
 
@@ -186,6 +195,14 @@ p {
 
 .footer-link {
   padding: 1%;
+}
+.fab{
+  cursor: pointer;
+  color: #fff;
+}
+.fas{
+  cursor: pointer;
+  color: #fff;
 }
 
 
